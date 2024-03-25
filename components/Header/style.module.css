@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: var(--background);
+}
+
+.container :nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container :nth-child(1) h1 {
+    font-size: 22px;
+    font-family: var(--font-primary);
+    color: var(--text);
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.container nav p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.container aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: var(--foreground);
+    cursor: pointer;
+}
+
+.container aside svg,
+.serach svg {
+    cursor: pointer;
+}
+
+.divider {
+    width: 1px;
+    height: 40px;
+    background-color: var(--text-25);
+    margin-inline: 40px;
+}
+
+.profileHandler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--foreground);
+    cursor: pointer;
+}
+
+.profileHandler svg {
+    color: var(--text);
+}

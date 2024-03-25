@@ -1,0 +1,16 @@
+.container {
+    font-size: 15px;
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    padding: 12px 20px;
+    /* font-weight: 500; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.container:hover {
+    background-color: var(--secondary-125);
+    transition: background-color .25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
